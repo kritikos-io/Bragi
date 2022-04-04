@@ -1,10 +1,16 @@
 # Templates - Dotnet
 
-A simple template leveraging [.Config][1] dotfiles submodule  for rapid project deployment. Simply rename Solution.{code-workspace,sln,sln.DotSettings} to your project name and get started! Afterwards, replace this readme with the actual documentation of your project.
+> Bragi (/ˈbrɑːɡi/; Old Norse: [ˈbrɑɣe]) is the skaldic god of poetry in Norse mythology. [^1]
 
-Additionally, change the Project & Repository urls on [src/Directory.Build.props](src/Directory.Build.props).
-
-Additionally, until GitHub properly supports submodule definitions from template repositories, after cloning you should run
-```git submodule add https://github.com/kritikos-io/.config``` from the repository root. You can replace the submodule with a compatible fork (to preserve your own default namespace etc) **provided it keeps file naming intact** since most files are appearing as symlinks.
+An extensible OPDS cataloging system for the .NET platform.
+Planned components are:
+- OPDS Compatible API (version 1.2[^2] and 2.0 draft[^3]) with the inclusion of the page streaming extension[^4]
+- Web App for basic functionality (browsing, editing metadata)
+- Desktop/Mobile app as full clients (reading supported)
 
 [1]: https://github.com/kritikos-io/.config
+
+[^1]: https://en.wikipedia.org/wiki/Bragi
+[^2]: https://specs.opds.io/opds-1.2
+[^3]: https://drafts.opds.io/opds-2.0
+[^4]: https://vaemendis.net/opds-pse/
